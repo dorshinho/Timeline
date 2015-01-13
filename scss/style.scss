@@ -80,14 +80,14 @@ h2 {
     margin-right: 5%;
 }
 
-@media screen and (max-width: 65.375em) {
+@media screen and (max-width: 65em) {
 
     .timeline > li .time span:last-child {
         font-size: 1.5em;
     }
 }
 
-@media screen and (max-width: 47.2em) {
+@media screen and (max-width: 45em) {
     .timeline:before {
         display: none;
     }
@@ -165,8 +165,8 @@ h2 {
 
 .timeline > li .label h2 {
     margin-top: 0px;
-    padding: 0 0 10px 0;
-    border-bottom: 1px solid rgba(255,255,255,0.4);
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid white;
 }
 
 .timeline > li .label:after {
@@ -201,7 +201,7 @@ h2 {
     background: red;
 
 }
-
+/* Transit Line */
 .timeline:before {
     content: '';
     position: absolute;
