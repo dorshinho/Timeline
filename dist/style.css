@@ -924,6 +924,7 @@ h2 {
 .timeline > li:nth-child(odd) .time span:last-child {
   color: #6cbfee; }
 
+/* bottom box color */
 .timeline > li .label {
   font-size: 1.2em;
   font-weight: 300;
@@ -961,6 +962,7 @@ h2 {
 .timeline > li:nth-child(odd) .label:after {
   border-right-color: #6cbfee; }
 
+/* Circles */
 .timeline > li .icon {
   width: 40px;
   height: 40px;
@@ -974,7 +976,7 @@ h2 {
   margin: 0 0 0 -25px;
   position: absolute;
   color: #fff;
-  background: #46a4da; }
+  background: red; }
 
 .timeline:before {
   content: '';
@@ -982,9 +984,10 @@ h2 {
   top: 0;
   bottom: 0;
   width: 10px;
-  background: #afdcf8;
+  background: #ABB1B6;
   left: 20%;
-  margin-left: -10px; }
+  margin-left: -10px;
+  outline: #3594cb solid 2px; }
 
 .timeline > li {
   position: relative; }
